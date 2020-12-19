@@ -3,12 +3,52 @@ var generateBtn = document.querySelector("#generate");
 
 // Write password to the #password input
 function writePassword() {
+  
+  
+    var input = prompt("Input a length between 8 and 128 characters.");
+    if (input < 8 || input > 128) {
+      alert("Try again");
+      return;
+    }
+  
+    if (input > 8 || input < 128); {
+      var qa = confirm("Would you like to include lowercase letters?");
+      var qb = confirm("Would you like to include uppercase letters?");
+      var qc = confirm("Would you like to include numbers?");
+      var qd = confirm("Would you like to include special characters?");
+    }
+    
+    
+    
+    
+  
+    
+  
+  
+  //calls the 
   var password = generatePassword();
   var passwordText = document.querySelector("#password");
   passwordText.value = password;
-   
-   
       
+
+
+  var fullString = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890!#$%&'()*+,-./:;<=>?@[]^_`{|}~";
+  var lower = fullString.substring(0, 25);
+  var upper = fullString.substring(26, 51);
+  var number = fullString.substring(52, 61);
+  var special = fullString.substring(62);
+  var product = [];
+  
+ 
+
+
+
+
+
+
+
+
+
 }
 
 
@@ -16,9 +56,11 @@ function writePassword() {
 generateBtn.addEventListener("click", writePassword);
 
 
-// Creating variables for the project
-  var lowerString = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"];
-  var upperString = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"];
-  var numberString = ["1", "2", "3", "4", "5", "6", "7", "8", "9", "0"];
-  var specialString = ["!", "#", "$", "%", "&", "'", "(", ")", "*", "+", ",", "-", ".", "/", ":", ";", "<", "=", ">", "?", "@", "[", "]", "^", "_", "`", "{", "|", "}", "~",];
-  var pwlength 
+
+  
+
+// Creating variables for the project. im going to attempt to use one string and sub strings to complete the equations
+
+  
+  
+   
