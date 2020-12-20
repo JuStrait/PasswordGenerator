@@ -1,6 +1,31 @@
-I approached this assignment with a goal to make it as simplistic as possible.
-I evaluated other solutions and arguments.
-I believe that my equation surpasses 99.9% of my peers solutions.
-I achieved the same product at near half the lines of code as my competitors.
-You  can read my whatwasdone.md for specific explanation.
-I was able to accomplish this assignment in just 41 lines of code on a standard format.
+# ** Password Generator **
+
+### * My Approach *
+
+- I approached this assignment with a goal to make it as simplistic as possible.
+- After much research, I decided that I want to avoid the typical array formulas.
+- So I wrote the code so that all variable are pulled from and pushed to global variables
+- This allowed me to make minimal computations therefore keeping the code very clean
+- Without comment lines, there are only 41 lines of code on a standard format
+- Thanks for looking
+
+### * Acceptance Criteria *
+
+- Generate a new, secure password
+- Click the button to generate a password
+- User is  presented with a series of prompts for password criteria
+- Users selects which criteria to include in the password
+- User is prompted for the length of the password
+- User is prompted for character types to include in the password
+- Input is validated and at least one character type should be selected
+- When all prompts are answered, a password is generated that matches the selected criteria
+- The password is then displayed in an alert or written to the page
+
+### Here is the [Github Repo](https://github.com/JuStrait/PasswordGenerator) 
+
+### Here is the [Deployed Page](https://justrait.github.io/PasswordGenerator/)
+
+![Clean](docs/scriptsnip.JPG)
+![Commented](docs/scriptsnip2.JPG)
+![Commented2](docs/scriptsnip3.JPG)
+
