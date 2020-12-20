@@ -1,15 +1,6 @@
-//These are my global variables
 var generateBtn = document.querySelector("#generate");
 var fullString = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890!#$%&'()*+,-./:;<=>?@[]^_`{|}~";
 var selections = "";
-//This function generates the password after the writePassword function defines the parameters
-function generatePassword(finalpw) {
-  var results = "";
-  (finalpw, selections);
-  for (var index = 0; index < finalpw; index++) {
-    results += selections.charAt(Math.floor(Math.random() * selections.length));  }
-  return results;}
-//  This prompts user input and defines values based off the input
 function writePassword() {
   selections = "";
   var input = (prompt("Input a length between 8 and 128 characters."));
@@ -31,7 +22,11 @@ function writePassword() {
     selections += fullString.substring(62);  }
   var password = generatePassword(input);
   var passwordText = document.querySelector("#password");
-  passwordText.value = password;
-}
-// Add event listener to generate button
+  passwordText.value = password;}
+function generatePassword(finalpw) {
+  var results = "";
+  (finalpw, selections);
+  for (var index = 0; index < finalpw; index++) {
+    results += selections.charAt(Math.floor(Math.random() * selections.length));  }
+  return results;}
 generateBtn.addEventListener("click", writePassword);
