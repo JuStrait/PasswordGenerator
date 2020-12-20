@@ -1,5 +1,5 @@
 // These are my global variables
-var generateBtn = document.querySelector("#generate");
+    var generateBtn = document.querySelector("#generate");
 // I wanted to go down a path without using arrays and defining variables from a single string
     var fullString = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890!#$%&'()*+,-./:;<=>?@[]^_`{|}~";
 // This is the global variable for selections after the writePassword function. Not to be confused with the local variable
@@ -7,7 +7,7 @@ var generateBtn = document.querySelector("#generate");
     var selections = "";
 // This prompts user input and defines values based off the input
     function writePassword() {
-// Local variable that collects the substring confirms in a single string to be called upon later
+// Local variable that collects the substring confirms in a single string to be called upon later and resets the function for each use
     selections = "";
 // Prompts the user to input a character length which is logged for use in the generator function
     var input = (prompt("Input a length between 8 and 128 characters."));
