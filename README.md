@@ -4,7 +4,7 @@
 
 - I approached this assignment with a goal to make it as simplistic as possible
 - After much research, I wanted to avoid the typical, cluttered array formulas 
-- So I wrote the code global string variables where i could to reduce excess lines 
+- So I wrote the code using global string variables where I could to reduce excess lines 
 - This allowed me to make minimal computations therefore keeping the code very "clean"
 - Without comment lines, there are only 41 lines of code on a standard format
 - Thanks for looking
