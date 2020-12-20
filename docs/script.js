@@ -12,7 +12,7 @@ function generatePassword(finalpw) {
 //  This prompts user input and defines values based off the input
 function writePassword() {
   selections = "";
-  var input = parseInt(prompt("Input a length between 8 and 128 characters."));
+  var input = (prompt("Input a length between 8 and 128 characters."));
   if (input < 8 || input > 128) {
     alert("Try again");
     return;  }
@@ -29,7 +29,7 @@ function writePassword() {
     selections += fullString.substring(52, 62);  }
   if (qd) {
     selections += fullString.substring(62);  }
-    var password = generatePassword(input);
+  var password = generatePassword(input);
   var passwordText = document.querySelector("#password");
   passwordText.value = password;
 }
