@@ -2,10 +2,10 @@
 
 ### * My Approach *
 
-- I approached this assignment with a goal to make it as simplistic as possible.
-- After much research, I decided that I want to avoid the typical array formulas.
-- So I wrote the code so that all variable are pulled from and pushed to global variables
-- This allowed me to make minimal computations therefore keeping the code very clean
+- I approached this assignment with a goal to make it as simplistic as possible
+- After much research, I wanted to avoid the typical, cluttered array formulas 
+- So I wrote the code global string variables where i could to reduce excess lines 
+- This allowed me to make minimal computations therefore keeping the code very "clean"
 - Without comment lines, there are only 41 lines of code on a standard format
 - Thanks for looking
 
